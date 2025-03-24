@@ -9,7 +9,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 # Constants
-API_BASE_URL = "https://mgo2gncdj3.execute-api.ap-south-1.amazonaws.com"
+API_BASE_URL = "http://localhost:5000"
 OPTION_CHAIN_ENDPOINT = f"{API_BASE_URL}/index-option-chain"
 KAFKA_BROKER = "localhost:9092"
 KAFKA_TOPIC = "option_chain_data"
